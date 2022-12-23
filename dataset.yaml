@@ -1,0 +1,17 @@
+# Train/val/test sets as 
+## 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+
+#path: ../datasets/coco128  # dataset root dir
+train: /content/drive/MyDrive/yolo_custom_data/traffic_sign/train/images  # train images (relative to 'path') 128 images
+val:   /content/drive/MyDrive/yolo_custom_data/traffic_sign/val/images # val images (relative to 'path') 128 images
+# test:  # test images (optional)
+
+# Classes
+nc: 39  # number of classes
+
+names: ['ahead_only','animal_crossing','around_the_corner','Compulsary_keep_right','compulsort_ahead_or_turnleft','compulsory_ahead_or_turnright',
+'compulsory_keep_left','construstion_side_ahead','cycle_crossing','dangours_curve_to_right','end_of_no_passing_zone','end_speed_limit80','give_way',
+'ice_road_ahead','narrow_road','no_entry','no_overtaking','no_overtaking_by_truck','pedistrian_crossway','priority_road','retricated_area',
+'right_reverse_bend','round_about','school_ahead','speed_limi50','speed_limit100','speed_limit120','speed_limit20','speed_limit30','speed_limit60',
+'speed_limit70','speed_limit80','stop','traffic_sign_ahead','truck_traffic_sign','turn_left_ahead','turn_right_ahead','uneven_road','warning'] # class names
